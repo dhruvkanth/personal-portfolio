@@ -6,7 +6,7 @@ import 'animate.css';
 import '../bob.css'
 import TrackVisibility from 'react-on-screen';
 
-export const Banner = () => {
+export const Hero = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
