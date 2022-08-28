@@ -98,13 +98,13 @@ span.navbar-text {
     align-items: center;
 }
 
-.hvr-underline {
+.hover-underline {
     display: inline-block;
     position: relative;
     color: #B3EFB2;
 }
 
-.hvr-underline:after {
+.hover-underline:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -117,7 +117,7 @@ span.navbar-text {
     transition: transform 0.25s ease-out;
 }
 
-.hvr-underline:hover:after {
+.hover-underline:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }

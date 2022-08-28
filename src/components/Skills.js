@@ -8,7 +8,7 @@ export const Skills = () => {
 
     const animateChars = para.split('').map((char, i) => {
         return (
-            char === ' ' ? <span key={i} className="hvr-bob">{'\u00A0'}</span> : <span key={i} className="hvr-bob">{char}</span>
+            char === ' ' ? <span key={i} className="hover-bob">{'\u00A0'}</span> : <span key={i} className="hover-bob">{char}</span>
         )
     })
 
@@ -40,7 +40,7 @@ export const Skills = () => {
         <section className="skill" id="skills">
             <div className="container">
                 <div className="skill-box wow zoomIn Sphere">
-                    <h2 className="hvr-bob">Skills</h2>
+                    <h2 className="hover-bob">Skills</h2>
                     <p>{animateChars}</p>
                 </div>
             </div>

@@ -66,7 +66,7 @@ export const Banner = () => {
                 </span>
                         <h1>{introName}</h1>
                         <p>{aboutMe}</p>
-                        <a href="#project" className="hvr-bob">Projects <ArrowRightCircle
+                        <a href={"#project"} className="hover-bob">Projects <ArrowRightCircle
                             size={25}/></a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
