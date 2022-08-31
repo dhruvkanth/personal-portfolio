@@ -3,7 +3,6 @@ import {Col, Container, Row} from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
 import {ArrowRightCircle} from 'react-bootstrap-icons';
 import 'animate.css';
-import '../bob.css'
 import TrackVisibility from 'react-on-screen';
 
 export const Hero = () => {
